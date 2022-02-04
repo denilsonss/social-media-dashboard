@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --dark-50: #252B42;
+    --dark-100: #1D1F29;
+    --dark-200: #20222F;
+    --branco: #FFFFFF;
+    --cinza: #8C98C6;
+    --verde:#1EB589;
+    --vermelho:#DC414C;
+    --images: 20px;
+    --box-width: 256px;
+    --box-heigth: 216px;
+    --box-heigth-menor: 125px;
+}
+.button {
+    margin-left: 1139px;
+    align-items: center;
+    display: flex;
+}
+
+.main {
+    background-color: var(--dark-100);
+    min-height: 100vh;
+    justify-content: center;
+    font-family: Inter;
+    padding-left: 162px;
+    padding-top: 36px;
+
+}
+
+.title {
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--branco);
+
+}
+
+.caption {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--cinza);
+}
+
+.article {
+    
+}
+
+.first-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    height: 216px;
+    margin-bottom: 46px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: var(--box-width);
+    height: var(--box-heigth);
+    background-color: var(--dark-50);
+    border-radius: 6px;
+    margin-right: 26px;
+
+}
+
+.icons {
+    width: var(--images);
+    height: var(--images);
+}
+
+.number {
+    font-weight: 700;
+    color: var(--branco);
+    font-size: 56px;
+    margin-bottom: 10px;
+}
+
+.followers {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cinza);
+    margin-bottom: 26px;
+}
+
+.span {
+    display: flex;
+    align-items: center;
+    gap: 8px;   
+    margin-bottom: 28px;
+}
+
+.username {
+    color:var(--cinza);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.up {
+    display: flex;
+    align-items: center;
+    gap:4px;
+}
+
+.days{
+    color: var(--verde);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.days-negative {
+    color: var(--vermelho);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.second-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 1100px;
+    height: 216px;
+}
+
+.information-pag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: var(--box-width);
+    height: var(--box-heigth-menor);
+    background-color: var(--dark-50);
+    border-radius: 6px;
+    margin-right: 26px;
+}
+
+.span-too{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 100denilpx;
+    
+}
