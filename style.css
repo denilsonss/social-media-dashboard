@@ -124,6 +124,7 @@
     flex-direction: row;
     width: 1100px;
     height: 216px;
+    margin-bottom: 46px;
 }
 
 .information-pag {
@@ -140,8 +141,23 @@
 
 .span-too{
     display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-    gap: 100denilpx;
+    align-items: center;
+    gap: 100px;  
+    margin-top: 26px;
+    margin-bottom: 28px;
+    color: var(--cinza);
+    
+    
     
 }
+
+
+
+
+.up-too{
+    display: flex;
+    justify-content: center;
+    gap:4px;
+    
+}
+
