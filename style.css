@@ -151,15 +151,16 @@
     
 }
 
-
-
-
 .up-too{
     display: flex;
     align-items: center;
     gap: 100px;  
     margin-bottom: 31px;
     color: var(--cinza);
+    font-size: 12px;
+}
+
+.tr-box {
     
 }
 
